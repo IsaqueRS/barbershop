@@ -1,0 +1,76 @@
+/* Estilos gerais para a agenda semanal */
+.weekly-agenda {
+  margin: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho da agenda */
+.weekly-agenda h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para os botões de navegação */
+.weekly-agenda .button {
+  background-color: #f8f8f8;
+  color: #333;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.weekly-agenda .button:hover {
+  background-color: #eee;
+}
+
+/* Estilos para a tabela da agenda */
+.weekly-agenda .agenda-table {
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+}
+
+/* Estilos para as células da tabela da agenda */
+.weekly-agenda .agenda-cell {
+  padding: 0.5rem;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.weekly-agenda .agenda-cell:last-child {
+  border-right: none;
+}
+
+.weekly-agenda .agenda-cell.agenda-header {
+  background-color: #f8f8f8;
+  font-weight: 600;
+}
+
+/* Estilos para os eventos da agenda */
+.weekly-agenda .agenda-event {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.weekly-agenda .agenda-event:hover {
+  background-color: #0069d9;
+}
+
+.weekly-agenda .agenda-event-title {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.weekly-agenda .agenda-event-time {
+  font-size: 0.8rem;
+  margin: 0;
+}
